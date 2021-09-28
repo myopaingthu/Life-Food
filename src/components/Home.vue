@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-img
-            height="90vh"
+            :height="height"
             width="100%"
             src="../assets/prawn.jpg"
         >
@@ -79,6 +79,11 @@ export default {
             window.scrollBy(0, window.innerHeight);
         }
     },
+    computed: {
+        height () {
+            return window.innerHeight - 70;
+        }
+    }
 }
 </script>
 <style>
