@@ -9,7 +9,7 @@
                 <v-row 
                 justify="center" 
                 align="center"
-                class="abs-center">
+                >
                     <v-col cols="12" sm="8">
                         <v-hover
                             v-slot="{ hover }"
@@ -46,7 +46,7 @@
                         </v-hover>
                     </v-col>
                 </v-row>
-                <div class="mt-auto mx-auto">
+                <div class="bottom">
                     <v-btn
                         large
                         fab
@@ -82,12 +82,14 @@ export default {
 }
 </script>
 <style>
-    .abs-center {
-        position: relative;
-        top: 80px;
-    }
     .line-height {
         font-size: 1.5rem;
         line-height: 2.6;
+    }
+    .bottom {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left:-32px;
     }
 </style>
