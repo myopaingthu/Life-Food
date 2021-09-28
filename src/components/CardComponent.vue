@@ -36,7 +36,7 @@
                     color="yellow accent-1"
                     small
                 >
-                    မတ်ဆင်ဂျာမှမှာယူမယ်
+                    Messenger မှမှာယူမယ်
                 </v-btn>
             </v-card-actions>
         </v-card>
@@ -49,7 +49,7 @@ export default {
 </script>
 <style scoped>
     .description {
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-style: italic;
         height: 40px;
     }

@@ -1,5 +1,5 @@
 <template>
-    <v-container class="mt-5">
+    <v-container class="mt-5 mb-5">
         <v-row>
         <v-col
             v-for="list in lists"

@@ -1,7 +1,8 @@
 <template>
-    <div class="yellow accent-1 mx-0 mt-5">
-        <v-container>
-            <v-row>
+    <div class="yellow accent-1 mx-0 mt-5 py-11">
+        <v-container 
+        fill-height>
+            <v-row justify="center" >
                 <v-col
                     cols="12"
                     sm="3"
@@ -160,12 +161,12 @@
 </template>
 <script>
 export default {
-
+   
 }
 </script>
 <style scoped>
     .contact-size {
-        font-size: 1.4em;
+        font-size: 1.3em;
         font-family: "Times New Roman", Times, serif;
     }
 </style>
